@@ -23,10 +23,22 @@
   }
 }
 
-
 // Content preview box
 .preview {
   margin: 20px 0;
   padding: 10px;
   border-radius: 10px;
+}
+
+// Save status label
+.save-status {
+  margin: 10px 0;
+  height: 30px;
+
+  span {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: #ffef87;
+  }
 }

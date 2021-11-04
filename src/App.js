@@ -2,10 +2,12 @@ import { Route, Switch } from 'react-router';
 import { HashRouter, NavLink } from 'react-router-dom';
 
 import Tiny from './components/tiny';
+import Draft from './components/draft';
 import Preview from './components/preview';
 
 const editors = [
   ['tiny',  'TinyMCE v5', Tiny],
+  ['draft', 'Draft.js',   Draft],
   ['preview', 'Preview',   Preview],
 ];
 
@@ -19,6 +21,9 @@ export default function App() {
           { editors.map(([path, _, Component], idx) => (
             <Route key={idx} path={`/${path}`} component={ Component } />
           )) }
+          <Route>
+            <p>Pick an editor from the menu. Or check the Preview on the right.</p>
+          </Route>
         </Switch>
       </HashRouter>
     </div>

@@ -1,0 +1,26 @@
+
+.RichEditor-root {
+  background-color: #f9f9f9;
+}
+
+.RichEditor-editor {
+  color: #333333;
+
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
+  line-height: 1.33;
+
+  div[data-block="true"] {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
+
+.RichEditor-styleButton {
+  color: #333;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  height: 250px;
+  overflow: auto;
+}

@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import { useText } from '../../hooks';
-import Editor from './editor';
+
+import SaveStatus from '../save-status';
+import TextEditor from './editor';
 
 export default function Tiny() {
   const { text, saveText, saving } = useText();
@@ -12,12 +14,12 @@ export default function Tiny() {
   };
 
   return (
-    <>
+    <main>
       <h2>TinyMCE v5</h2>
-      <Editor setText={setText} text={text} />
-      <p>{saving ? <span>Saving...</span> : <span>&nbsp;</span>}</p>
+      <TextEditor setText={setText} text={text} />
+      <SaveStatus saving={saving} />
       <Features />
-    </>
+    </main>
   );
 }
 
@@ -27,6 +29,7 @@ function Features() {
       <h3>Pros</h3>
       <ul>
         <li>Familiarity: It's same editor used on V3, just updated.</li>
+        <li>Easy to setup</li>
         <li>Advanced paste plugins are available (PowerPaste).</li>
         <li>Paste behavior is good even without plugins.</li>
         <li>Relatively easy to create new plugins.</li>
