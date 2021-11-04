@@ -3,11 +3,13 @@ import { HashRouter, NavLink } from 'react-router-dom';
 
 import Tiny from './components/tiny';
 import Draft from './components/draft';
+import CKEditor from './components/ckeditor';
 import Preview from './components/preview';
 
 const editors = [
   ['tiny', 'TinyMCE v5', Tiny],
   ['draft', 'Draft.js', Draft],
+  ['ckeditor', 'CKEditor 5', CKEditor],
   ['preview', 'Preview', Preview],
 ];
 
