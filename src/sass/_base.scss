@@ -14,20 +14,6 @@ body {
   max-width: 1000px;
 }
 
-.main-nav {
-  ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-  }
-
-  li {
-    display: block;
-    margin-right: 15px;
-    list-style: none;
-  }
-
-  .active {
-    font-weight: 700;
-  }
+a {
+  color: #123d42;
 }

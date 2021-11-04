@@ -23,7 +23,7 @@ export default function Tiny() {
 
 function Features() {
   return (
-    <>
+    <section>
       <h3>Pros</h3>
       <ul>
         <li>Familiarity: It's same editor used on V3, just updated.</li>
@@ -49,9 +49,11 @@ function Features() {
       <ul>
         <li>
           <a href="https://www.tiny.cloud/pricing/">TinyMCE Plans</a>
+        </li>
+        <li>
           <a href="https://www.tiny.cloud/docs/">Docs</a>
         </li>
       </ul>
-    </>
+    </section>
   );
 }

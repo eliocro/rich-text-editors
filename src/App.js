@@ -2,13 +2,11 @@ import { Route, Switch } from 'react-router';
 import { HashRouter, NavLink } from 'react-router-dom';
 
 import Tiny from './components/tiny';
-import Draft from './components/draft';
-import Slate from './components/slate';
+import Preview from './components/preview';
 
 const editors = [
   ['tiny',  'TinyMCE v5', Tiny],
-  ['draft', 'Draft.js',   Draft],
-  ['slate', 'Slate.js',   Slate],
+  ['preview', 'Preview',   Preview],
 ];
 
 export default function App() {
