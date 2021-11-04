@@ -27,8 +27,8 @@ export default function TextEditor({ setText, text }) {
           bold italic underline | numlist bullist | link |
           forecolor backcolor | removeformat | copy
         `,
-        content_css: '/content.css',
-        body_class: 'editor-content-body',
+        content_css: '/tinymce/style.css',
+        body_class: 'editor-content',
       }}
     />
   );

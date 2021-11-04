@@ -34,7 +34,10 @@ function Features() {
       </ul>
       <h3>Cons</h3>
       <ul>
-        <li>Based on blocks. No HTML output by default!</li>
+        <li>
+          Based on blocks. No HTML output by default! 🤦
+          (<a href="https://github.com/facebook/draft-js/issues/319">Issue</a>)
+        </li>
         <li>Barebones library. Hard to setup. Need to read docs.</li>
         <li>Editor components (eg. button bar) are created manually.</li>
         <li>Editor events are also handled manually.</li>
@@ -42,8 +45,14 @@ function Features() {
       </ul>
       <h3>More Info</h3>
       <ul>
-        <li><a href="https://draftjs.org/docs/getting-started">Getting started</a></li>
-        <li><a href="https://draftjs.org/docs/api-reference-editor">API Reference</a></li>
+        <li>
+          <a href="https://draftjs.org/docs/getting-started">Getting started</a>
+        </li>
+        <li>
+          <a href="https://draftjs.org/docs/api-reference-editor">
+            API Reference
+          </a>
+        </li>
       </ul>
     </section>
   );

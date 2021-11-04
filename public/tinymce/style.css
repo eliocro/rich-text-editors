@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-.editor-content-body {
+.editor-content {
   color: #333333;
   background-color: #f9f9f9;
 
@@ -9,7 +9,7 @@
   line-height: 1.33;
 }
 
-.editor-content-body p {
+.editor-content p {
   margin-top: 0;
   margin-bottom: 1em;
 }

@@ -4,11 +4,7 @@
 }
 
 .RichEditor-editor {
-  color: #333333;
-
-  font-family: 'Roboto Condensed';
-  font-size: 18px;
-  line-height: 1.33;
+  @extend .preview-content;
 
   div[data-block="true"] {
     margin-top: 0;

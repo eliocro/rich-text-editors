@@ -6,7 +6,7 @@ export default function Preview() {
     <section>
       <h2>Content Preview</h2>
       <div
-        className="preview editor-content-body"
+        className="preview preview-content"
         dangerouslySetInnerHTML={{ __html: text }}
       ></div>
       <ul>
