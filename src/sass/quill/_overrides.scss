@@ -1,0 +1,7 @@
+
+.ql-editor {
+  @extend .preview-content;
+
+  height: 300px !important;
+  overflow: auto;
+}

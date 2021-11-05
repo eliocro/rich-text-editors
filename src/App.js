@@ -4,12 +4,14 @@ import { BrowserRouter, NavLink } from 'react-router-dom';
 import Tiny from './components/tiny';
 import Draft from './components/draft';
 import CKEditor from './components/ckeditor';
+import Quill from './components/quill';
 import Preview from './components/preview';
 
 const editors = [
   ['tiny', 'TinyMCE v5', Tiny],
   ['draft', 'Draft.js', Draft],
   ['ckeditor', 'CKEditor 5', CKEditor],
+  ['quill', 'Quill', Quill],
   ['preview', 'Preview', Preview],
 ];
 
