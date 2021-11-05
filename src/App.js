@@ -1,5 +1,5 @@
 import { Route, Switch } from 'react-router';
-import { HashRouter, NavLink } from 'react-router-dom';
+import { BrowserRouter, NavLink } from 'react-router-dom';
 
 import Tiny from './components/tiny';
 import Draft from './components/draft';
@@ -16,7 +16,7 @@ const editors = [
 export default function App() {
   return (
     <div className="wrapper">
-      <HashRouter>
+      <BrowserRouter>
         <header className="header">
           <h1>Rich text editor comparison</h1>
           <Nav />
@@ -31,7 +31,7 @@ export default function App() {
             </p>
           </Route>
         </Switch>
-      </HashRouter>
+      </BrowserRouter>
       <footer className="footer">
         <span>Source code: </span>
         <a

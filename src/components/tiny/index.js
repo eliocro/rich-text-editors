@@ -28,11 +28,10 @@ function Features() {
     <section>
       <h3>Pros</h3>
       <ul>
-        <li>Familiarity: It's same editor used on V3, just updated.</li>
+        <li>Familiarity: It's same editor used on Prevent V3, just updated.</li>
         <li>Easy to setup</li>
         <li>Advanced paste plugins are available (PowerPaste).</li>
         <li>Paste behavior is good even without plugins.</li>
-        <li>Relatively easy to create new plugins.</li>
       </ul>
 
       <h3>Cons</h3>
@@ -42,10 +41,7 @@ function Features() {
         </li>
         <li>TinyMCE branding is required in the free version.</li>
         <li>Paid versions can have limits on the number of editors loaded.</li>
-        <li>
-          Default onChange event happens on blur and on new line. Requires
-          listening to onKeyUp for a better sync.
-        </li>
+        <li>Styling body content requires an external stylesheet.</li>
       </ul>
 
       <h3>More Info</h3>

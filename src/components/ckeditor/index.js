@@ -28,36 +28,28 @@ function Features() {
     <section>
       <h3>Pros</h3>
       <ul>
-        <li>Relatively easy to setup. Similar to TinyMCE.</li>
+        <li>Similar to TinyMCE.</li>
+        <li>Relatively easy to setup.</li>
         <li>Paste from Office is available as a free plugin.</li>
+        <li>Solid and stable library with tons of features.</li>
       </ul>
       <h3>Cons</h3>
       <ul>
         <li>
-          Toolbar configuration requires a custom build! 🤦 (
-          <a href="https://github.com/ckeditor/ckeditor5/issues/2072">Issue</a>)
+          Our toolbar configuration requires a custom build! (<a href="https://github.com/ckeditor/ckeditor5/issues/2072">Discussion</a>)
         </li>
         <li>
-          Harder to update due to custom builds. But there is an online
-          configurator.
+          Harder to update due to custom builds. There is an <a href="https://ckeditor.com/ckeditor-5/online-builder/">online
+          configurator</a>. We can either publish a new npm package or include a minified build.
         </li>
       </ul>
       <h3>More Info</h3>
       <ul>
         <li>
-          <a href="https://ckeditor.com/docs/ckeditor5/latest/api/index.html">
-            CKEditor API
-          </a>
+          <a href="https://ckeditor.com/docs/ckeditor5/latest/api/index.html">CKEditor API</a>
         </li>
         <li>
-          <a href="https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html">
-            React integration docs
-          </a>
-        </li>
-        <li>
-          <a href="https://ckeditor.com/ckeditor-5/online-builder/">
-            Custom editor builder
-          </a>
+          <a href="https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html">React integration docs</a>
         </li>
       </ul>
     </section>

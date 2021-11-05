@@ -37,11 +37,12 @@ function Features() {
         <li>
           Based on blocks. No HTML output by default! 🤦
           (<a href="https://github.com/facebook/draft-js/issues/319">Issue</a>)
+          Can be solved with plugins.
         </li>
-        <li>Barebones library. Hard to setup. Need to read docs.</li>
-        <li>Editor components (eg. button bar) are created manually.</li>
+        <li>Barebones library. Hard to setup. Reading the docs is necessary.</li>
+        <li>No styling out of the box.</li>
+        <li>Editor components (eg. button bar) have to be created and styled manually.</li>
         <li>Editor events are also handled manually.</li>
-        <li>Doesn't look as good as TinyMCE out of the box.</li>
       </ul>
       <h3>More Info</h3>
       <ul>
@@ -49,9 +50,7 @@ function Features() {
           <a href="https://draftjs.org/docs/getting-started">Getting started</a>
         </li>
         <li>
-          <a href="https://draftjs.org/docs/api-reference-editor">
-            API Reference
-          </a>
+          <a href="https://draftjs.org/docs/api-reference-editor">API Reference</a>
         </li>
       </ul>
     </section>
